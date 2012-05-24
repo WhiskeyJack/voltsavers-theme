@@ -214,6 +214,8 @@ background:transparent url(images/menu-hover-bg.gif) repeat-x;
 
 #nav li.active-trail a {
 background:transparent url(images/menu-hover-bg.gif) repeat-x;
+/*color:#92cd00; */
+color:#0199fc;
 }
 
 #rounded-menu-left {
