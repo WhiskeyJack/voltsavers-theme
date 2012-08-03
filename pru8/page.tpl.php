@@ -202,11 +202,13 @@
  <?php print render ($page['footer']); ?>
 </div>
 <?php endif; ?>
-<?php if($secondary_menu) : ?>
+<?php /* if($secondary_menu) : */ ?>
 <div id="subnav-wrapper">
-<?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'subnav', 'class' => array('links', 'clearfix')))); ?>
+<span style="text-align:left;font-size:12px;float:left;">Created by <a href="http://www.inthere.nl">InThere Studios</a></span>
+<span style="text-align:left:font-size:12px;float:right;"><a href="http://www.voltsavers.com">Voltsavers</a> 2012</span>
+<?php /* print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'subnav', 'class' => array('links', 'clearfix')))); */ ?>
 </div>
-<?php endif; ?>
+<?php /* endif; */ ?>
 </div> <!-- end footer wrapper -->
 
 <div style="clear:both"></div>
