@@ -548,7 +548,7 @@ float: left;
 -------------------------------------------------------------- */
 
 #layout-type-1 #sidebar-left {
-width: 26%;
+width: 16%;
 float: left;
 font-size:12px;	
 }
@@ -561,7 +561,7 @@ font-size:12px;
 }
 
 .one-sidebar #content{
-width: 69%;
+width: 79%;
 margin-left: 25px;
 float: left;
 }
@@ -572,7 +572,7 @@ float: left;
 }
 
 #layout-type-1 #sidebar-right {
-width: 26%;
+width: 16%;
 float: right;
 font-size:12px;	      
 }
@@ -1396,7 +1396,7 @@ margin:15px 0;
 
 #footer-wrapper {
 width: 1200px;
-margin: 0 auto;
+margin: 10px auto;
 position: relative;
 border-top: 1px solid #bbb;
 padding:10px 0 0;
